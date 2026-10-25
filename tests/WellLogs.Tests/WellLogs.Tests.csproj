@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WellLogs.Core\WellLogs.Core.csproj" />
+    <ProjectReference Include="..\..\src\WellLogs.Core\WellLogs.Core.csproj" />
   </ItemGroup>
 
 </Project>
