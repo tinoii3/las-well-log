@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="WellLogs.Cli/WellLogs.Cli.csproj" />
+  <Project Path="WellLogs.Core/WellLogs.Core.csproj" />
+  <Project Path="WellLogs.Tests/WellLogs.Tests.csproj" />
+</Solution>

@@ -1,0 +1,10 @@
+D:\about_programming\las-well-log\PetroRes.WellLogs\WellLogs.Cli\bin\Debug\WellLogs.Cli.exe.config
+D:\about_programming\las-well-log\PetroRes.WellLogs\WellLogs.Cli\bin\Debug\WellLogs.Cli.exe
+D:\about_programming\las-well-log\PetroRes.WellLogs\WellLogs.Cli\bin\Debug\WellLogs.Cli.pdb
+D:\about_programming\las-well-log\PetroRes.WellLogs\WellLogs.Cli\bin\Debug\WellLogs.Core.dll
+D:\about_programming\las-well-log\PetroRes.WellLogs\WellLogs.Cli\bin\Debug\WellLogs.Core.pdb
+D:\about_programming\las-well-log\PetroRes.WellLogs\WellLogs.Cli\obj\Debug\WellLogs.Cli.csproj.AssemblyReference.cache
+D:\about_programming\las-well-log\PetroRes.WellLogs\WellLogs.Cli\obj\Debug\WellLogs.Cli.csproj.CoreCompileInputs.cache
+D:\about_programming\las-well-log\PetroRes.WellLogs\WellLogs.Cli\obj\Debug\WellLogs.C08685BA.Up2Date
+D:\about_programming\las-well-log\PetroRes.WellLogs\WellLogs.Cli\obj\Debug\WellLogs.Cli.exe
+D:\about_programming\las-well-log\PetroRes.WellLogs\WellLogs.Cli\obj\Debug\WellLogs.Cli.pdb
