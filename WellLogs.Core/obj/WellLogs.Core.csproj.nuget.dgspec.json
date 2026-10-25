@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\about_programming\\las-well-log\\PetroRes.WellLogs\\WellLogs.Core\\WellLogs.Core.csproj": {}
+    "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Core\\WellLogs.Core.csproj": {}
   },
   "projects": {
-    "D:\\about_programming\\las-well-log\\PetroRes.WellLogs\\WellLogs.Core\\WellLogs.Core.csproj": {
+    "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Core\\WellLogs.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\about_programming\\las-well-log\\PetroRes.WellLogs\\WellLogs.Core\\WellLogs.Core.csproj",
+        "projectUniqueName": "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Core\\WellLogs.Core.csproj",
         "projectName": "WellLogs.Core",
-        "projectPath": "D:\\about_programming\\las-well-log\\PetroRes.WellLogs\\WellLogs.Core\\WellLogs.Core.csproj",
+        "projectPath": "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Core\\WellLogs.Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\about_programming\\las-well-log\\PetroRes.WellLogs\\WellLogs.Core\\obj\\",
+        "outputPath": "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
