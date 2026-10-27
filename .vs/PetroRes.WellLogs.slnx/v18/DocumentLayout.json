@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\about_programming\\PetroRes.WellLogs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Cli\\WellLogs.Cli.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WellLogs.Cli\\WellLogs.Cli.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Core\\WellLogs.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WellLogs.Core\\WellLogs.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Tests\\WellLogs.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WellLogs.Tests\\WellLogs.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Cli\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WellLogs.Cli\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\about_programming\\PetroRes.WellLogs\\tests\\WellLogs.Tests\\WellLogs.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\WellLogs.Tests\\WellLogs.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "WellLogs.Tests.csproj",
-              "DocumentMoniker": "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Tests\\WellLogs.Tests.csproj",
-              "RelativeDocumentMoniker": "WellLogs.Tests\\WellLogs.Tests.csproj",
-              "ToolTip": "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Tests\\WellLogs.Tests.csproj",
-              "RelativeToolTip": "WellLogs.Tests\\WellLogs.Tests.csproj",
+              "DocumentMoniker": "D:\\about_programming\\PetroRes.WellLogs\\tests\\WellLogs.Tests\\WellLogs.Tests.csproj",
+              "RelativeDocumentMoniker": "tests\\WellLogs.Tests\\WellLogs.Tests.csproj",
+              "ToolTip": "D:\\about_programming\\PetroRes.WellLogs\\tests\\WellLogs.Tests\\WellLogs.Tests.csproj",
+              "RelativeToolTip": "tests\\WellLogs.Tests\\WellLogs.Tests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-25T06:59:24.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WellLogs.Core.csproj",
-              "DocumentMoniker": "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Core\\WellLogs.Core.csproj",
-              "RelativeDocumentMoniker": "WellLogs.Core\\WellLogs.Core.csproj",
-              "ToolTip": "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Core\\WellLogs.Core.csproj",
-              "RelativeToolTip": "WellLogs.Core\\WellLogs.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-25T06:58:46.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WellLogs.Cli.csproj",
-              "DocumentMoniker": "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Cli\\WellLogs.Cli.csproj",
-              "RelativeDocumentMoniker": "WellLogs.Cli\\WellLogs.Cli.csproj",
-              "ToolTip": "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Cli\\WellLogs.Cli.csproj",
-              "RelativeToolTip": "WellLogs.Cli\\WellLogs.Cli.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-25T06:58:16.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Cli\\Program.cs",
-              "RelativeDocumentMoniker": "WellLogs.Cli\\Program.cs",
-              "ToolTip": "D:\\about_programming\\PetroRes.WellLogs\\WellLogs.Cli\\Program.cs",
-              "RelativeToolTip": "WellLogs.Cli\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-25T06:10:13.173Z",
+              "WhenOpened": "2026-10-25T08:46:02.082Z",
               "EditorCaption": ""
             }
           ]
