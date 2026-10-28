@@ -4,6 +4,11 @@ namespace WellLogs.Core.Las
     {
         public static HeaderLine? TryParse(string line)
         {
+            return TryParse(line, false);
+        }
+
+        public static HeaderLine? TryParse(string line, bool lenient)
+        {
             if (string.IsNullOrWhiteSpace(line))
             {
                 return null;
@@ -16,13 +21,18 @@ namespace WellLogs.Core.Las
             }
 
             int dot = trimmed.IndexOf('.');
-            if (dot <= 0)
+            if (dot < 0)
+            {
+                return null;
+            }
+
+            if (!lenient && dot == 0)
             {
                 return null;
             }
 
             string mnemonic = trimmed.Substring(0, dot).Trim();
-            if (mnemonic.Length == 0 || mnemonic.IndexOf(' ') >= 0 && !IsSpacePaddedName(mnemonic))
+            if (!lenient && (mnemonic.Length == 0 || mnemonic.IndexOf(' ') >= 0))
             {
                 return null;
             }
@@ -54,11 +64,6 @@ namespace WellLogs.Core.Las
             }
 
             return new HeaderLine(mnemonic, unit, value, description);
-        }
-
-        private static bool IsSpacePaddedName(string mnemonic)
-        {
-            return false;
         }
     }
 }

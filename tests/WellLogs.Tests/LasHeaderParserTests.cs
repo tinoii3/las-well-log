@@ -162,5 +162,28 @@ IDWD ..1IN             :Depth Wheel {F13.4}
             Assert.Single(h.Curves);
             Assert.Single(issues, i => i.Code == "CURVE_LINE_UNREADABLE");
         }
+
+        [Fact]
+        public void Curve_Names_With_Spaces_Or_Empty_Keep_Column_Alignment()
+        {
+            string text =
+@"~CURVE INFORMATION
+DEPT .M : depth
+Bit IN.e : MM
+Carbonaceous Shale.percent : Lithology
+. 00 000 00 00 : 11
+GR .GAPI : gamma
+~A
+1 2 3 4 5
+";
+            LasHeader h = Parse(text, out var issues, out _);
+
+            Assert.Equal(5, h.Curves.Count);
+            Assert.Equal("Bit IN", h.Curves[1].Mnemonic);
+            Assert.Equal("Carbonaceous Shale", h.Curves[2].Mnemonic);
+            Assert.Equal("UNNAMED_3", h.Curves[3].Mnemonic);
+            Assert.Equal("GR", h.Curves[4].Mnemonic);
+            Assert.Empty(issues);
+        }
     }
 }

@@ -76,7 +76,7 @@ namespace WellLogs.Plotting
 
             if (gr != null)
             {
-                AddSeries(model, gr, well.Depth, "gr", GrColor);
+                AddSeries(model, gr,  well.Depth, "gr",  GrColor,  GrMin,  GrMax);
             }
             else
             {
@@ -88,7 +88,7 @@ namespace WellLogs.Plotting
             
             if (res != null)
             {
-                AddSeries(model, res, well.Depth, "res", ResColor);
+                AddSeries(model, res, well.Depth, "res", ResColor, ResMin, ResMax);
             }
             else
             {
@@ -102,7 +102,7 @@ namespace WellLogs.Plotting
             
             if (den != null)
             {
-                AddSeries(model, den, well.Depth, "den", DenColor);
+                AddSeries(model, den, well.Depth, "den", DenColor, DenMin, DenMax);
             }
             else
             {
@@ -111,7 +111,7 @@ namespace WellLogs.Plotting
             
             if (neu != null)
             {
-                AddSeries(model, neu, well.Depth, "neu", NeuColor);
+                AddSeries(model, neu, well.Depth, "neu", NeuColor, NeuMin, NeuMax);
             }
             else
             {
@@ -151,7 +151,7 @@ namespace WellLogs.Plotting
             model.Axes.Add(axis);
         }
 
-        private static void AddSeries(PlotModel model, Curve curve, double[] depth, string xKey, OxyColor color)
+        private static void AddSeries(PlotModel model, Curve curve, double[] depth, string xKey, OxyColor color, double axisMin, double axisMax)
         {
             var series = new LineSeries
             {
@@ -163,9 +163,12 @@ namespace WellLogs.Plotting
 
             double[] v = curve.Values;
             int n = Math.Min(v.Length, depth.Length);
+
             for (int i = 0; i < n; i++)
             {
-                series.Points.Add(double.IsNaN(v[i]) ? new DataPoint(double.NaN, depth[i]) : new DataPoint(v[i], depth[i]));
+                double x = v[i];
+                bool visible = !double.IsNaN(x) && x >= axisMin && x <= axisMax;
+                series.Points.Add(visible ? new DataPoint(x, depth[i]) : new DataPoint(double.NaN, depth[i]));
             }
             model.Series.Add(series);
         }

@@ -82,5 +82,12 @@ namespace WellLogs.Tests
         {
             Assert.Null(LasLineParser.TryParse("to eccenter the HGNS  2 PPC's to centralize sonic) :Remarks Line 1"));
         }
+
+        [Fact]
+        public void Strict_Mode_Still_Rejects_Spaced_Mnemonic()
+        {
+            Assert.Null(LasLineParser.TryParse("Max recorded temp = 164.18 degF."));
+            Assert.NotNull(LasLineParser.TryParse("Bit IN.e : MM", true));
+        }
     }
 }

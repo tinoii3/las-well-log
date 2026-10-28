@@ -59,16 +59,17 @@ namespace WellLogs.Core.Las
                         break;
 
                     case 'C':
-                        h = LasLineParser.TryParse(line);
+                        h = LasLineParser.TryParse(line, true);
                         if (h == null)
                         {
-                            issues.Add(new Issue(IssueSeverity.Warning, "CURVE_LINE_UNREADABLE", "Cannot parse curve-information line: " + Truncate(line), lineNo));
+                            issues.Add(new Issue(IssueSeverity.Warning, "CURVE_LINE_UNREADABLE",
+                                "Cannot parse curve-information line: " + Truncate(line), lineNo));
                         }
                         else
                         {
-                            header.Curves.Add(new CurveDefinition(h.Mnemonic, h.Unit, h.Description, IsArrayCurve(h)));
+                            string mn = h.Mnemonic.Length > 0 ? h.Mnemonic : "UNNAMED_" + header.Curves.Count;
+                            header.Curves.Add(new CurveDefinition(mn, h.Unit, h.Description, IsArrayCurve(h)));
                         }
-
                         break;
 
                     default:
