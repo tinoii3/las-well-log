@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WellLogs.Core\WellLogs.Core.csproj" />
+	  <ProjectReference Include="..\WellLogs.Plotting\WellLogs.Plotting.csproj" />
   </ItemGroup>
 
 </Project>
