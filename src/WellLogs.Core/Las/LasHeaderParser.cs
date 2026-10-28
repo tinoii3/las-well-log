@@ -8,13 +8,6 @@ namespace WellLogs.Core.Las
 {
     public static class LasHeaderParser
     {
-        private static readonly HashSet<string> WellLabels = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
-        {
-            "COMPANY", "WELL", "FIELD", "LOCATION", "COUNTY", "STATE", "COUNTRY",
-            "SERVICE COMPANY", "LATITUDE", "LONGITUDE", "API NUMBER", "LOG DATE",
-            "UNIQUE WELL ID", "PROVINCE", "DATE"
-        };
-
         public static LasHeader Parse(TextReader reader, List<Issue> issues)
         {
             var header = new LasHeader();
@@ -143,14 +136,7 @@ namespace WellLogs.Core.Las
 
         private static void ApplyWellLine(LasHeader header, HeaderLine h)
         {
-            string value = h.Value;
-            string description = h.Description;
-
-            if (WellLabels.Contains(value) && description.Length > 0 && !WellLabels.Contains(description))
-            {
-                value = description;
-                description = h.Value;
-            }
+            string value = HeaderValueResolver.Resolve(h.Mnemonic, h.Value, h.Description);
 
             switch (h.Mnemonic.ToUpperInvariant())
             {
