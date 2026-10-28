@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\about_programming\\PetroRes.WellLogs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\about_programming\\PetroRes.WellLogs\\tests\\WellLogs.Tests\\WellLogs.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\WellLogs.Tests\\WellLogs.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\about_programming\\PetroRes.WellLogs\\tests\\WellLogs.Tests\\LasHeaderParserTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\WellLogs.Tests\\LasHeaderParserTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\about_programming\\PetroRes.WellLogs\\src\\WellLogs.Core\\Las\\LasHeaderParser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WellLogs.Core\\Las\\LasHeaderParser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\about_programming\\PetroRes.WellLogs\\src\\WellLogs.Core\\Las\\CurveDefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WellLogs.Core\\Las\\CurveDefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CurveDefinition.cs",
+              "DocumentMoniker": "D:\\about_programming\\PetroRes.WellLogs\\src\\WellLogs.Core\\Las\\CurveDefinition.cs",
+              "RelativeDocumentMoniker": "src\\WellLogs.Core\\Las\\CurveDefinition.cs",
+              "ToolTip": "D:\\about_programming\\PetroRes.WellLogs\\src\\WellLogs.Core\\Las\\CurveDefinition.cs",
+              "RelativeToolTip": "src\\WellLogs.Core\\Las\\CurveDefinition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T19:58:25.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WellLogs.Tests.csproj",
-              "DocumentMoniker": "D:\\about_programming\\PetroRes.WellLogs\\tests\\WellLogs.Tests\\WellLogs.Tests.csproj",
-              "RelativeDocumentMoniker": "tests\\WellLogs.Tests\\WellLogs.Tests.csproj",
-              "ToolTip": "D:\\about_programming\\PetroRes.WellLogs\\tests\\WellLogs.Tests\\WellLogs.Tests.csproj",
-              "RelativeToolTip": "tests\\WellLogs.Tests\\WellLogs.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-25T08:46:02.082Z",
+              "Title": "LasHeaderParserTests.cs",
+              "DocumentMoniker": "D:\\about_programming\\PetroRes.WellLogs\\tests\\WellLogs.Tests\\LasHeaderParserTests.cs",
+              "RelativeDocumentMoniker": "tests\\WellLogs.Tests\\LasHeaderParserTests.cs",
+              "ToolTip": "D:\\about_programming\\PetroRes.WellLogs\\tests\\WellLogs.Tests\\LasHeaderParserTests.cs",
+              "RelativeToolTip": "tests\\WellLogs.Tests\\LasHeaderParserTests.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAmwKUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T19:50:50.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LasHeaderParser.cs",
+              "DocumentMoniker": "D:\\about_programming\\PetroRes.WellLogs\\src\\WellLogs.Core\\Las\\LasHeaderParser.cs",
+              "RelativeDocumentMoniker": "src\\WellLogs.Core\\Las\\LasHeaderParser.cs",
+              "ToolTip": "D:\\about_programming\\PetroRes.WellLogs\\src\\WellLogs.Core\\Las\\LasHeaderParser.cs",
+              "RelativeToolTip": "src\\WellLogs.Core\\Las\\LasHeaderParser.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T18:28:26.83Z",
               "EditorCaption": ""
             }
           ]

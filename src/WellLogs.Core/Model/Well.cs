@@ -18,6 +18,7 @@ namespace WellLogs.Core.Model
         public double[] Depth { get; }
         public string DepthUnit { get; }
         public int SampleCount => Depth.Length;
+        public double? DeclaredNull { get; set; }
         public IReadOnlyList<Curve> Curves => _curves;
         public Dictionary<string, string> Properties { get; } = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
 
