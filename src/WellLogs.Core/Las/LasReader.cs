@@ -66,6 +66,7 @@ namespace WellLogs.Core.Las
 
                     var well = new Well(name, data.Columns[0], header.DepthUnit);
                     well.DeclaredNull = header.NullValue;
+                    well.DeclaredStep = header.Step;
                     foreach (KeyValuePair<string, string> p in header.WellProperties) well.Properties[p.Key] = p.Value;
 
                     for (int i = 1; i < header.Curves.Count; i++)
