@@ -62,8 +62,7 @@ namespace WellLogs.Core.Las
                         h = LasLineParser.TryParse(line, true);
                         if (h == null)
                         {
-                            issues.Add(new Issue(IssueSeverity.Warning, "CURVE_LINE_UNREADABLE",
-                                "Cannot parse curve-information line: " + Truncate(line), lineNo));
+                            issues.Add(new Issue(IssueSeverity.Warning, "CURVE_LINE_UNREADABLE", "Cannot parse curve-information line: " + Truncate(line), lineNo));
                         }
                         else
                         {
